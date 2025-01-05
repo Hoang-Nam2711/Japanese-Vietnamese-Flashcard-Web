@@ -1,0 +1,35 @@
+[
+    {
+        "lessonName" : "Bài 1",
+        "id" : 0,
+        "cards" : [
+            {
+                "kanji" : "中学生",
+                "hiragana" : "ちゅうがくせい",
+                "meaning" : "học sinh trung học", 
+                "Hán Việt" : "Trung Học Sinh"
+            },{
+                "kanji" : "タバコ",
+                "hiragana" : "",
+                "meaning" : "thuốc lá", 
+                "Hán Việt" : ""
+            }
+        ]
+    },{
+       "lessonName" : "Bài 2",
+        "id" : 1,
+        "cards" : [
+            {
+                "kanji" : "中学生",
+                "hiragana" : "ちゅうがくせい",
+                "meaning" : "học sinh trung học", 
+                "Hán Việt" : "Trung Học Sinh"
+            },{
+                "kanji" : "タバコ",
+                "hiragana" : "",
+                "meaning" : "thuốc lá", 
+                "Hán Việt" : ""
+            }
+        ] 
+    }
+]

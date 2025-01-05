@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div{
+    display:flex;
+    align-items: center;
+}
+
+.header div svg{
+    margin: 0px 15px;
+}

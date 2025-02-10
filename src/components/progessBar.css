@@ -1,0 +1,45 @@
+.progress-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 48px;
+    margin: 0px 50px;
+}
+
+.progress-number{
+    margin: 5px 0px;
+}
+
+.success-label{
+    color: rgb(62, 123, 40);;
+}
+
+.fail-label{
+    color: rgb(212, 94, 27);
+}
+
+.progress-bar{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: grey;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.progess-bar-success-fill{
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(62, 123, 40);
+    transition: width 0.5s ease-out;
+}
+
+.progess-bar-failed-fill{
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(212, 94, 27);
+    right: 0;
+}
+

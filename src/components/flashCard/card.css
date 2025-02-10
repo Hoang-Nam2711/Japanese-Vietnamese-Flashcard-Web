@@ -1,6 +1,6 @@
-.flash-card{
+/* .flash-card{
     margin: 100px 100px 0px;
-}
+} */
 
 .flash-card .flash-card-animation{
     animation-name: flipUpAndDown;
@@ -32,6 +32,8 @@
     color: white;
     font-size: 50px;
     position: relative;
+    /* transform: translateX(0%); */
+    /* animation: swipeDown 0.3s linear  1 forwards ; */
 }
 
 .flash-card .card-content-border-deanimation{
@@ -111,12 +113,13 @@
 
 
 .kanji-hiragana .mode{
-    border: solid 1px #3E7B27;
-    border-radius : 50%;
+    /* border: solid 5px rgb(133, 169, 71); */
+    border-radius : 15px;
     font-size: 70%;
     padding: 12px 19px;
     background-color: #3E7B27;
     display: inline-block;
+    box-shadow: rgb(133, 169, 71) 5px 5px;
 }
 
 .kanji-hiragana .mode-animation{
@@ -180,15 +183,44 @@
     }
 }
 
-
-
-.checkBtns{
-    margin: 50px 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.swipeUpAnimation{
+    animation: swipeUp 0.3s linear  1 forwards ;
 }
 
+.swipeDownAnimation{
+    animation: swipeDown 0.3s linear  1 forwards ;
+}
 
+@keyframes swipeUp{
+    0%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    50%{
+        opacity: 0;
+        transform: translateY(-70px);
+    }60%{
+        opacity: 0;
+        transform: translateY(100px);
+    }100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
 
-
+@keyframes swipeDown{
+    0%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    60%{
+        opacity: 0;
+        transform: translateY(-70px);
+    }50%{
+        opacity: 0;
+        transform: translateY(100px);
+    }100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

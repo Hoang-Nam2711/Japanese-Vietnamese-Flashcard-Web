@@ -2,18 +2,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 import './header.css'
 
-function Header(){
+const Header = (props) => {
     return(
         <div className="header">
             <div className="leftAlign">
                 <FontAwesomeIcon icon={faBars} />
-                <p> Left Align </p>
+                <p> Cards </p>
             </div>
             <div className="centerAlign">
-                <p> Japanese Card </p>
+                <p> {props.centralAlign} </p>
             </div>
             <div className="rightAlign">
-                <p> Right Align </p>
+                <p> Japanese Flashcard </p>
             </div>
         </div>
     )

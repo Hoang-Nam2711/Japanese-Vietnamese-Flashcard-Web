@@ -1,6 +1,11 @@
 .header{
     display: flex;
     justify-content: space-between;
+    background-color: rgb(212, 94, 27);
+    box-shadow: rgb(144, 93, 58) 0px 7px;
+    color: white;
+    font-size: 20px;
+    padding: 0px 30px;
 }
 
 .header div{
